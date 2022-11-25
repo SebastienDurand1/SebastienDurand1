@@ -1,0 +1,91 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+.container__header{
+
+    position: relative;
+    
+}
+
+.container__header-img {
+    width: 10vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 3rem;
+    top: 2.5rem;
+   
+
+}
+
+
+.container__header-name {
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 3.5rem;
+    border-radius: 40px;
+    font-size: 3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+
+.container__header-job {
+    font-size: 1.5rem;
+
+}
+
+.container__main{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__skills{
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+background-color: white;
+padding: 2rem;
+border-radius: 40px;
+
+}
+
+
+.container__xp{
+ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+ background-color: white;
+ padding: 2rem;
+ border-radius: 40px;
+ max-width: 40vw;
+ 
+}
+
+.container__xp-job--list {
+
+    line-height: 1.8rem;
+}
+
+.footer__passions{
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+margin: 2rem;
+background-color: white;
+padding: 1rem;
+border-radius: 40px;
+
+}
+
+.footer__passions-list {
+
+
+    display: flex;
+    justify-content: space-around;
+}
+
+em{
+    font-weight: bold;
+    font-style: italic;
+}
